@@ -82,3 +82,15 @@
 # print(iloczyn(lista4))
 
 #Zadanie 5
+def minmax(lista):
+    min = 0
+    max = 0
+    for i in lista:
+        if max<i:
+            max = i
+        if min>i:
+            min = i
+    krotka = (min , max)
+    return krotka
+lista5 = [1,12,31,-4]
+print(minmax(lista5))
