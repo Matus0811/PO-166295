@@ -47,10 +47,10 @@ class wymierna():
     def __float__(self):
         zp = self.licznik/self.mianownik
         return zp
-    def __add__(self, liczba):
+    def __add__(self, other):
         zp = self.licznik / self.mianownik
         return zp + liczba
-    def __sub__(self, liczba):
+    def __sub__(self, other):
         zp = self.licznik / self.mianownik
         return zp - liczba
 
